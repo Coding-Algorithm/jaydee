@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:linear-gradient(to bottom, #D7D7D7, white);
+	font-family:Arial,sans-serif;
+	font-size:20px;
+}
+
+
+/*Header Starts*/
+header {
+	width:100%;
+	background-color:white;
+	position:fixed;
+	border-bottom:5px solid #19BFB7;
+}
+
+#header-container {
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+
+#header-container a{
+	text-decoration:none;
+}
+
+#logo {
+	margin:0 0 10px 0;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.name {
+	font-weight:bolder;
+	background:#1E2460;
+	color:white;
+	padding:5px;
+	word-spacing:5px;
+	margin-right:-5px;
+}
+
+#biz {
+	background:white;
+	border:2px solid #1E2460;
+	padding:3px;
+	color:#1E2460;
+}
+
+
+#nav ul li{
+	display:inline-block;
+	padding-left:15px;
+	text-align:center;
+	margin:0px auto 10px auto;
+}
+
+#nav ul li a{
+	color:#1E2460;
+}
+
+#nav ul li #current a{
+	color:#19BFB7;
+}
+
+/*Header Ends*/
+
+
+
+/*Main Body Begins*/
+
+#MainBody {
+	padding-top:120px;
+	width:100%;
+	margin:0 auto;
+	background:white;
+}
+
+
+p{
+	line-height:20px;
+	padding:5px;
+}
+
+
+/*Apply Page*/
+
+
+
+#inner-apply {
+	width:100%;
+	text-align:center;
+	margin:0;
+	background:white;
+	background:;
+}
+
+
+#inner-apply h1{
+	text-align:center;
+	margin:0 auto;
+	color:white;
+	background:linear-gradient(to bottom, black, grey);
+	font-size:1em;
+}
+
+
+#inner-apply form {
+	width:90%;
+	text-align:center;
+	justify-content:center;
+	margin:0 auto;
+	border:none;
+
+}
+
+#inner-apply form li {
+	text-align:justify;
+	list-style:none;
+	margin:10px auto 10px auto;
+	font-size:10pt;
+	font-weight:bold;
+
+}
+
+
+#inner-apply fieldset {
+	border:2px dotted grey;
+	padding:0 2px 0 2px;
+	text-align:left;
+	
+
+}
+
+legend {
+	font-size:20px;
+	text-align:justify;
+
+}
+
+/*Using Id to resize radio and checkbox input size*/
+#radio input {
+	max-width:20px;
+	display:inline;
+	vertical-align:middle;
+}
+
+
+div #form input {
+	border:1px solid black;
+	height:30px;
+	border-radius:5px;
+	width:60%;
+}
+
+#inner-apply #checkbox input {
+	width:20px;
+	text-align:center;
+	font-weight:normal;
+	vertical-align:middle;
+
+}
+
+#address textarea {
+	border:1px solid black;
+	vertical-align:middle;
+	height:auto;
+}
+
+#inner-apply select {
+	max-width:40%;
+
+
+}
+
+
+#con-container h1{
+	margin:10px 0 15px 0;
+	font-size:25px;
+	padding:5px 0 5px 0;
+	text-shadow:5px 5px 10px grey;
+	background:linear-gradient(to bottom, black, grey);
+	color:white;
+}
+
+.servicelist {
+	border:1px solid grey;
+	margin:0 auto;
+	width:90%;
+	margin-bottom:15px;
+	background-color:white;
+	box-shadow:1px 1px 3px black;
+
+}
+
+.servicelist img{
+	width:100%;
+
+}
+
+
+#greetings {
+	width:100%;
+	background:linear-gradient(to right, #1E2460, #19BFB7);
+	color:white;
+	margin-bottom:20px;
+}
+
+
+/*FOOTER STARTS*/
+
+
+footer {
+	background:#5D9B9B;
+	width:100%;
+	text-align:center;
+}
+
+#ft.container {
+	width:90%;
+	margin:0 auto;
+}
+
+
+#lto {
+	color:white;
+	width:90%;
+	margin:0 auto 10px auto;
+	text-align:center;
+	
+
+}
+
+#lto p {
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:20px;
+	padding:15px 0 5px 0;
+}
+
+#lto ul {
+	text-align:center;
+
+}
+
+#lto ul li {
+	padding:0 0 10px 0;
+	list-style:none;
+}
+
+#services {
+	color:white;
+	width:90%;
+	text-align:center;
+	margin:0 auto;
+
+}
+
+#services p {
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:15px auto 0 auto;
+	text-align:center;
+}
+
+#services ul li{
+	list-style:none;
+	margin:5px auto 5px auto;
+	
+}
+
+footer #contact {
+	margin-top:15px;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:15px auto 0 auto;
+	text-align:justify;
+	color:white;
+}	
+
+#contact p{
+	text-align:center;
+}
+
+
+form {
+	font-size:10px;
+	padding:5px 0 5px 0;
+
+}
+
+#social li{
+	display:inline-block;
+	margin:0 10px 0 10px;
+}
+
+#copyright {
+	background:#1E2460;
+	padding:10px auto;
+	color:white;
+	width:100%;
+
+}
+
+#powered {
+	width:30%;
+	font-size:8px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	background:linear-gradient(to bottom, blue, white);
+	color:black;
+	font-weight:bold;
+	opacity:0.6;
+	border-radius:30px;
+}
